@@ -1,0 +1,24 @@
+.lInput {
+    height: 30px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.lBtn {
+    border: none;
+    padding: 10px 20px;
+    background-color: #0071c2;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 12%;
+}
+
+.lContainer {
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
