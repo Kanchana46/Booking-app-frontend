@@ -23,7 +23,6 @@ const LoadingReducer = (state, action) => {
 
 export const LoadingContextProvider = ({ children }) => {
     const [state, dispatch] = useReducer(LoadingReducer, INITIAL_STATE);
-    console.log(state)
     return (
         <LoadingContext.Provider
             value={{

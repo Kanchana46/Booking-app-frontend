@@ -12,6 +12,7 @@ const Navbar = () => {
         setOpenLogout(false);
         dispatch({ type: "LOGOUT" });
     }
+
     return (
         <div className="navbar">
             <div className="navContainer">
@@ -32,7 +33,6 @@ const Navbar = () => {
                         <button className="logoutBtn" onClick={handleLogout}>Logout</button>
                     </div>
                 </div>}
-
             </div>
         </div>
     )
